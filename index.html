@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>アニメ漫画サークル 〜ユッキーと愉快な仲間達〜</title>
+    <meta name="description" content="スマホで見やすい、Canvaスライド付きのアニメ・漫画紹介サイト。">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="top-bar">
+      <a class="brand" href="#top" aria-label="トップへ">
+        <span>Y</span>
+        ユッキーのおすすめ棚
+      </a>
+      <nav class="quick-nav" aria-label="ページ内メニュー">
+        <a href="#slide">スライド</a>
+        <a href="#anime">アニメ</a>
+        <a href="#manga">漫画</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <img src="./assets/hero.png" alt="" class="hero-image">
+        <div class="hero-copy">
+          <p class="pill">スマホ版</p>
+          <h1>アニメ漫画サークル<br>〜ユッキーと愉快な仲間達〜</h1>
+          <p>Canvaスライドと作品カードを、スマホでサクサク見られる形にしました。</p>
+          <a class="main-button" href="#slide">まずスライドを見る</a>
+        </div>
+      </section>
+
+      <section class="slide-section" id="slide" aria-labelledby="slide-title">
+        <div class="section-title">
+          <p class="pill">Canva</p>
+          <h2 id="slide-title">アニメ紹介スライド</h2>
+          <p>Canvaのプレゼンを、そのままページ内で見られるようにしています。</p>
+        </div>
+        <div class="phone-slide">
+          <iframe
+            src="https://www.canva.com/design/DAHLSgBGDRs/gj3wa_cTO8Sog_CsUC1jhQ/view?embed"
+            title="アニメ紹介 - プレゼンテーション"
+            loading="lazy"
+            allowfullscreen="allowfullscreen"
+            allow="fullscreen"
+          ></iframe>
+        </div>
+        <p class="note">表示されない時は、Canva側の共有設定を「リンクを知っている全員が閲覧可」にしてください。</p>
+      </section>
+
+      <section class="count-strip" aria-label="紹介内容">
+        <article><b>4</b><span>アニメ</span></article>
+        <article><b>4</b><span>漫画</span></article>
+        <article><b>8</b><span>作品紹介</span></article>
+      </section>
+
+      <section class="works" id="anime" aria-labelledby="anime-title">
+        <div class="section-title">
+          <p class="pill">Anime</p>
+          <h2 id="anime-title">アニメ紹介</h2>
+        </div>
+
+        <article class="work-card">
+          <img src="./assets/frieren.png" alt="">
+          <div>
+            <p class="labels"><span>ファンタジー</span><span>余韻</span></p>
+            <h3>葬送のフリーレン</h3>
+            <p>魔王討伐後の旅を描く、静かで心に残るファンタジー。</p>
+            <strong>推しポイント: 優しい空気感と名シーンの余韻。</strong>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="./assets/bluelock.png" alt="">
+          <div>
+            <p class="labels"><span>サッカー</span><span>覚醒</span></p>
+            <h3>ブルーロック</h3>
+            <p>世界一のストライカーを目指す、熱量高めのサッカー作品。</p>
+            <strong>推しポイント: 勝負の緊張感とキャラの覚醒。</strong>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="./assets/conan.png" alt="">
+          <div>
+            <p class="labels"><span>推理</span><span>定番</span></p>
+            <h3>名探偵コナン</h3>
+            <p>事件の謎解きから大きな物語まで楽しめる国民的ミステリー。</p>
+            <strong>推しポイント: 1話でも長編でも入りやすい。</strong>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="./assets/jjk.png" alt="">
+          <div>
+            <p class="labels"><span>呪術</span><span>バトル</span></p>
+            <h3>呪術廻戦</h3>
+            <p>呪いをめぐる戦いを描く、迫力たっぷりのダークファンタジー。</p>
+            <strong>推しポイント: スピード感ある戦闘と重い展開。</strong>
+          </div>
+        </article>
+      </section>
+
+      <section class="works manga" id="manga" aria-labelledby="manga-title">
+        <div class="section-title">
+          <p class="pill">Manga</p>
+          <h2 id="manga-title">漫画紹介</h2>
+        </div>
+
+        <article class="work-card">
+          <img src="./assets/wars.png" alt="">
+          <div>
+            <p class="labels"><span>アクション</span><span>ラブコメ</span></p>
+            <h3>幼稚園WARS</h3>
+            <p>幼稚園を舞台に、クセの強い先生たちが戦うハイテンション作品。</p>
+            <strong>推しポイント: ギャグとアクションの勢い。</strong>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="./assets/kagurabachi.png" alt="">
+          <div>
+            <p class="labels"><span>剣戟</span><span>復讐劇</span></p>
+            <h3>カグラバチ</h3>
+            <p>妖刀をめぐる戦いを描く、演出が鋭い剣戟アクション。</p>
+            <strong>推しポイント: 画面のかっこよさとキレ。</strong>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="./assets/pitch.png" alt="">
+          <div>
+            <p class="labels"><span>野球</span><span>青春</span></p>
+            <h3>サンキューピッチ</h3>
+            <p>野球の面白さと、チームで前に進む気持ちが伝わる作品。</p>
+            <strong>推しポイント: 試合の流れを追う楽しさ。</strong>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="./assets/gokurakugai.png" alt="">
+          <div>
+            <p class="labels"><span>裏社会</span><span>怪異</span></p>
+            <h3>極楽街</h3>
+            <p>雑多で鮮やかな街を舞台に、怪しい依頼や怪異との戦いが進む作品。</p>
+            <strong>推しポイント: 街の空気感とキャラの存在感。</strong>
+          </div>
+        </article>
+      </section>
+
+      <section class="mood" aria-labelledby="mood-title">
+        <p class="pill">Pick</p>
+        <h2 id="mood-title">迷ったらこれ</h2>
+        <a href="#anime">しみじみ見たい: フリーレン</a>
+        <a href="#anime">熱くなりたい: ブルーロック</a>
+        <a href="#manga">漫画を読むなら: カグラバチ / 極楽街</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>アニメ漫画サークル 〜ユッキーと愉快な仲間達〜</p>
+      <a href="#top">トップへ戻る</a>
+    </footer>
+  </body>
+</html>
